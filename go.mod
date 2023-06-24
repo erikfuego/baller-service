@@ -1,8 +1,11 @@
-module baller-service
+module im-hangry
 
 go 1.20
 
-require github.com/gin-gonic/gin v1.9.0
+require (
+	github.com/gin-gonic/gin v1.9.0
+	github.com/google/go-cmp v0.5.9
+)
 
 require (
 	github.com/bytedance/sonic v1.8.0 // indirect
